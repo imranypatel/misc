@@ -1,11 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2024-04-16T14:48:54.820Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="LxV7zTFEb0bnKtRuqXhk" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-16T15:14:29.293Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="s6J9hB3nW5NLtVGUYXty" version="24.2.5" type="github">
   <diagram name="Page-1" id="vNQFmZx2gMr3rpY3dTOg">
     <mxGraphModel dx="1120" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Nj1gAQICYfYbu2JzRmsQ-1" value="PG" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="220" width="120" height="60" as="geometry" />
+        <mxCell id="Nj1gAQICYfYbu2JzRmsQ-13" value="PG" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="30" width="270" height="290" as="geometry">
+            <mxRectangle x="100" y="30" width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nj1gAQICYfYbu2JzRmsQ-4" value="Production" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Nj1gAQICYfYbu2JzRmsQ-13">
+          <mxGeometry x="70" y="70" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj1gAQICYfYbu2JzRmsQ-11" value="Store" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Nj1gAQICYfYbu2JzRmsQ-13">
+          <mxGeometry x="70" y="30" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj1gAQICYfYbu2JzRmsQ-14" value="Quarter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Nj1gAQICYfYbu2JzRmsQ-13">
+          <mxGeometry x="70" y="110" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj1gAQICYfYbu2JzRmsQ-15" value="Warehouse" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Nj1gAQICYfYbu2JzRmsQ-13">
+          <mxGeometry x="70" y="150" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj1gAQICYfYbu2JzRmsQ-16" value="Sales Counter In&lt;div&gt;Cold Drinks&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Nj1gAQICYfYbu2JzRmsQ-13">
+          <mxGeometry x="70" y="192" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj1gAQICYfYbu2JzRmsQ-17" value="Sales Counter Out&lt;div&gt;Snacks&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Nj1gAQICYfYbu2JzRmsQ-13">
+          <mxGeometry x="70" y="240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj1gAQICYfYbu2JzRmsQ-18" value="KDA" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="400" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj1gAQICYfYbu2JzRmsQ-19" value="Sales Counter&lt;div&gt;Snacks &amp;amp; Fast Food&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Nj1gAQICYfYbu2JzRmsQ-18">
+          <mxGeometry x="65" y="50" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj1gAQICYfYbu2JzRmsQ-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Nj1gAQICYfYbu2JzRmsQ-13" target="Nj1gAQICYfYbu2JzRmsQ-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="270" as="sourcePoint" />
+            <mxPoint x="450" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nj1gAQICYfYbu2JzRmsQ-24" value="Malir Mandi" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="30" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj1gAQICYfYbu2JzRmsQ-25" value="Sales Counter Out&lt;div&gt;Snacks&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Nj1gAQICYfYbu2JzRmsQ-24">
+          <mxGeometry x="40" y="50" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj1gAQICYfYbu2JzRmsQ-26" value="Sales Counter Out&lt;div&gt;Snacks&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Nj1gAQICYfYbu2JzRmsQ-24">
+          <mxGeometry x="40" y="110" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj1gAQICYfYbu2JzRmsQ-27" value="Sales Counter Out&lt;div&gt;Snacks&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Nj1gAQICYfYbu2JzRmsQ-24">
+          <mxGeometry x="40" y="160" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj1gAQICYfYbu2JzRmsQ-28" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="160" as="sourcePoint" />
+            <mxPoint x="540" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nj1gAQICYfYbu2JzRmsQ-29" value="Material Supply" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Nj1gAQICYfYbu2JzRmsQ-28">
+          <mxGeometry x="0.0353" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
